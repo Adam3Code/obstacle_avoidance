@@ -1,0 +1,32 @@
+[1.818s] Invoking command in '/home/adamrustom/ros2_ws/src/obstacle_avoidance': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/obstacle_avoidance build --build-base /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build install --record /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/install.log --single-version-externally-managed install_data
+[2.423s] running egg_info
+[2.475s] writing build/obstacle_avoidance/obstacle_avoidance.egg-info/PKG-INFO
+[2.476s] writing dependency_links to build/obstacle_avoidance/obstacle_avoidance.egg-info/dependency_links.txt
+[2.477s] writing entry points to build/obstacle_avoidance/obstacle_avoidance.egg-info/entry_points.txt
+[2.478s] writing requirements to build/obstacle_avoidance/obstacle_avoidance.egg-info/requires.txt
+[2.479s] writing top-level names to build/obstacle_avoidance/obstacle_avoidance.egg-info/top_level.txt
+[2.566s] reading manifest file 'build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[2.566s] adding license file 'LICENSE'
+[2.567s] writing manifest file 'build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[2.568s] running build
+[2.568s] running build_py
+[2.568s] copying obstacle_avoidance/obstacle_movement.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance
+[2.569s] running install
+[2.582s] running install_lib
+[2.621s] copying /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance/obstacle_movement.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance
+[2.623s] byte-compiling /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance/obstacle_movement.py to obstacle_movement.cpython-312.pyc
+[2.624s]   File "/home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance/obstacle_movement.py", line 68
+[2.625s]     self.get_logger().info(f"DRONES ARE ERE}")
+[2.625s]                                            ^
+[2.625s] SyntaxError: f-string: single '}' is not allowed
+[2.626s] 
+[2.626s] running install_data
+[2.626s] running install_egg_info
+[2.679s] removing '/home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance-0.0.1-py3.12.egg-info' (and everything under it)
+[2.680s] Copying build/obstacle_avoidance/obstacle_avoidance.egg-info to /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance-0.0.1-py3.12.egg-info
+[2.691s] running install_scripts
+[2.990s] Installing obstacle_avoidance script to /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/obstacle_avoidance
+[2.990s] Installing obstacle_movement script to /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/obstacle_avoidance
+[2.992s] Installing remote_id_publisher script to /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/obstacle_avoidance
+[2.994s] writing list of installed files to '/home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/install.log'
+[3.078s] Invoked command in '/home/adamrustom/ros2_ws/src/obstacle_avoidance' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/obstacle_avoidance build --build-base /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build install --record /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/install.log --single-version-externally-managed install_data

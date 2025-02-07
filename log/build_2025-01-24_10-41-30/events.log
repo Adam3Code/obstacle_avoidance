@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.001497] (obstacle_avoidance) JobQueued: {'identifier': 'obstacle_avoidance', 'dependencies': OrderedDict()}
+[0.002145] (obstacle_avoidance) JobStarted: {'identifier': 'obstacle_avoidance'}
+[0.099540] (-) TimerEvent: {}
+[0.202829] (-) TimerEvent: {}
+[0.305399] (-) TimerEvent: {}
+[0.408896] (-) TimerEvent: {}
+[0.510375] (-) TimerEvent: {}
+[0.611758] (-) TimerEvent: {}
+[0.714835] (-) TimerEvent: {}
+[0.818532] (-) TimerEvent: {}
+[0.920933] (-) TimerEvent: {}
+[1.022277] (-) TimerEvent: {}
+[1.129273] (-) TimerEvent: {}
+[1.236203] (-) TimerEvent: {}
+[1.342819] (-) TimerEvent: {}
+[1.445509] (-) TimerEvent: {}
+[1.548382] (-) TimerEvent: {}
+[1.651932] (-) TimerEvent: {}
+[1.755255] (-) TimerEvent: {}
+[1.858562] (-) TimerEvent: {}
+[1.961864] (-) TimerEvent: {}
+[2.064666] (-) TimerEvent: {}
+[2.165203] (-) TimerEvent: {}
+[2.270162] (-) TimerEvent: {}
+[2.373896] (-) TimerEvent: {}
+[2.477027] (-) TimerEvent: {}
+[2.577905] (-) TimerEvent: {}
+[2.678966] (-) TimerEvent: {}
+[2.785027] (-) TimerEvent: {}
+[2.894244] (-) TimerEvent: {}
+[3.003391] (-) TimerEvent: {}
+[3.108704] (-) TimerEvent: {}
+[3.151937] (obstacle_avoidance) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/obstacle_avoidance', 'build', '--build-base', '/home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build', 'install', '--record', '/home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/adamrustom/ros2_ws/src/obstacle_avoidance', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'adamrustom', 'GIT_ASKPASS': '/home/adamrustom/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/adamrustom', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-53b6c44b-b8c4-44b3-8857-8be9186821a1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/adamrustom/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv-ardupilot) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/adamrustom/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'adamrustom', 'NAME': 'LAPTOP-TR20PHBG', 'WSL_INTEROP': '/run/WSL/328_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/adamrustom/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash:/home/adamrustom/venv-ardupilot/bin:/home/adamrustom/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash:/home/adamrustom/venv-ardupilot/bin:/home/adamrustom/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/usr/lib/ccache:/home/adamrustom/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/adamrustom/venv-ardupilot/bin:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/firem/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/firem/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/firem/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/firem/.dotnet/tools:/mnt/c/Users/firem/AppData/Local/Microsoft/WinGet/Packages/Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/firem/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'VIRTUAL_ENV_PROMPT': '(venv-ardupilot)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6cd159cfaf.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/adamrustom/venv-ardupilot', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[3.211733] (-) TimerEvent: {}
+[3.312896] (-) TimerEvent: {}
+[3.416840] (-) TimerEvent: {}
+[3.520823] (-) TimerEvent: {}
+[3.621918] (-) TimerEvent: {}
+[3.724052] (-) TimerEvent: {}
+[3.818578] (obstacle_avoidance) StdoutLine: {'line': b'running egg_info\n'}
+[3.819556] (obstacle_avoidance) StdoutLine: {'line': b'creating build/obstacle_avoidance/obstacle_avoidance.egg-info\n'}
+[3.824628] (-) TimerEvent: {}
+[3.926644] (-) TimerEvent: {}
+[3.944692] (obstacle_avoidance) StdoutLine: {'line': b'writing build/obstacle_avoidance/obstacle_avoidance.egg-info/PKG-INFO\n'}
+[3.945947] (obstacle_avoidance) StdoutLine: {'line': b'writing dependency_links to build/obstacle_avoidance/obstacle_avoidance.egg-info/dependency_links.txt\n'}
+[3.946768] (obstacle_avoidance) StdoutLine: {'line': b'writing entry points to build/obstacle_avoidance/obstacle_avoidance.egg-info/entry_points.txt\n'}
+[3.947076] (obstacle_avoidance) StdoutLine: {'line': b'writing requirements to build/obstacle_avoidance/obstacle_avoidance.egg-info/requires.txt\n'}
+[3.947631] (obstacle_avoidance) StdoutLine: {'line': b'writing top-level names to build/obstacle_avoidance/obstacle_avoidance.egg-info/top_level.txt\n'}
+[3.948144] (obstacle_avoidance) StdoutLine: {'line': b"writing manifest file 'build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'\n"}
+[4.026900] (-) TimerEvent: {}
+[4.041650] (obstacle_avoidance) StdoutLine: {'line': b"reading manifest file 'build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'\n"}
+[4.042784] (obstacle_avoidance) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.043639] (obstacle_avoidance) StdoutLine: {'line': b"writing manifest file 'build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'\n"}
+[4.044595] (obstacle_avoidance) StdoutLine: {'line': b'running build\n'}
+[4.044852] (obstacle_avoidance) StdoutLine: {'line': b'running build_py\n'}
+[4.045713] (obstacle_avoidance) StdoutLine: {'line': b'creating /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build\n'}
+[4.046781] (obstacle_avoidance) StdoutLine: {'line': b'creating /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib\n'}
+[4.048710] (obstacle_avoidance) StdoutLine: {'line': b'creating /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[4.050707] (obstacle_avoidance) StdoutLine: {'line': b'copying obstacle_avoidance/drone.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[4.052014] (obstacle_avoidance) StdoutLine: {'line': b'copying obstacle_avoidance/obstacle_movement.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[4.054049] (obstacle_avoidance) StdoutLine: {'line': b'copying obstacle_avoidance/obstacle_avoidance_3D.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[4.055966] (obstacle_avoidance) StdoutLine: {'line': b'copying obstacle_avoidance/obstacle_avoidance_1D.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[4.058718] (obstacle_avoidance) StdoutLine: {'line': b'copying obstacle_avoidance/obstacle_avoidance_2D.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[4.060161] (obstacle_avoidance) StdoutLine: {'line': b'copying obstacle_avoidance/__init__.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[4.060843] (obstacle_avoidance) StdoutLine: {'line': b'copying obstacle_avoidance/remote_id_publisher.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance\n'}
+[4.062251] (obstacle_avoidance) StdoutLine: {'line': b'running install\n'}
+[4.075442] (obstacle_avoidance) StdoutLine: {'line': b'running install_lib\n'}
+[4.117683] (obstacle_avoidance) StdoutLine: {'line': b'creating /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance\n'}
+[4.119177] (obstacle_avoidance) StdoutLine: {'line': b'copying /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance/drone.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance\n'}
+[4.120387] (obstacle_avoidance) StdoutLine: {'line': b'copying /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance/obstacle_movement.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance\n'}
+[4.121073] (obstacle_avoidance) StdoutLine: {'line': b'copying /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance/obstacle_avoidance_3D.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance\n'}
+[4.121696] (obstacle_avoidance) StdoutLine: {'line': b'copying /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance/obstacle_avoidance_1D.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance\n'}
+[4.122622] (obstacle_avoidance) StdoutLine: {'line': b'copying /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance/obstacle_avoidance_2D.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance\n'}
+[4.123200] (obstacle_avoidance) StdoutLine: {'line': b'copying /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance/__init__.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance\n'}
+[4.123875] (obstacle_avoidance) StdoutLine: {'line': b'copying /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance/remote_id_publisher.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance\n'}
+[4.124332] (obstacle_avoidance) StdoutLine: {'line': b'byte-compiling /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance/drone.py to drone.cpython-312.pyc\n'}
+[4.127308] (-) TimerEvent: {}
+[4.127874] (obstacle_avoidance) StdoutLine: {'line': b'byte-compiling /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance/obstacle_movement.py to obstacle_movement.cpython-312.pyc\n'}
+[4.129264] (obstacle_avoidance) StdoutLine: {'line': b'byte-compiling /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance/obstacle_avoidance_3D.py to obstacle_avoidance_3D.cpython-312.pyc\n'}
+[4.129947] (obstacle_avoidance) StdoutLine: {'line': b'byte-compiling /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance/obstacle_avoidance_1D.py to obstacle_avoidance_1D.cpython-312.pyc\n'}
+[4.132868] (obstacle_avoidance) StdoutLine: {'line': b'byte-compiling /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance/obstacle_avoidance_2D.py to obstacle_avoidance_2D.cpython-312.pyc\n'}
+[4.135539] (obstacle_avoidance) StdoutLine: {'line': b'byte-compiling /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance/__init__.py to __init__.cpython-312.pyc\n'}
+[4.136311] (obstacle_avoidance) StdoutLine: {'line': b'byte-compiling /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance/remote_id_publisher.py to remote_id_publisher.cpython-312.pyc\n'}
+[4.138255] (obstacle_avoidance) StdoutLine: {'line': b'running install_data\n'}
+[4.139238] (obstacle_avoidance) StdoutLine: {'line': b'creating /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/share/ament_index\n'}
+[4.141196] (obstacle_avoidance) StdoutLine: {'line': b'creating /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/share/ament_index/resource_index\n'}
+[4.142100] (obstacle_avoidance) StdoutLine: {'line': b'creating /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/share/ament_index/resource_index/packages\n'}
+[4.143828] (obstacle_avoidance) StdoutLine: {'line': b'copying resource/obstacle_avoidance -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/share/ament_index/resource_index/packages\n'}
+[4.145467] (obstacle_avoidance) StdoutLine: {'line': b'copying package.xml -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/share/obstacle_avoidance\n'}
+[4.146101] (obstacle_avoidance) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.189963] (obstacle_avoidance) StdoutLine: {'line': b'Copying build/obstacle_avoidance/obstacle_avoidance.egg-info to /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance-0.0.1-py3.12.egg-info\n'}
+[4.193430] (obstacle_avoidance) StdoutLine: {'line': b'running install_scripts\n'}
+[4.229857] (-) TimerEvent: {}
+[4.330968] (-) TimerEvent: {}
+[4.432361] (-) TimerEvent: {}
+[4.525137] (obstacle_avoidance) StdoutLine: {'line': b'Installing obstacle_movement script to /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/obstacle_avoidance\n'}
+[4.526825] (obstacle_avoidance) StdoutLine: {'line': b'Installing remote_id_publisher script to /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/obstacle_avoidance\n'}
+[4.528203] (obstacle_avoidance) StdoutLine: {'line': b"writing list of installed files to '/home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/install.log'\n"}
+[4.532755] (-) TimerEvent: {}
+[4.634033] (obstacle_avoidance) CommandEnded: {'returncode': 0}
+[4.636123] (-) TimerEvent: {}
+[4.693126] (obstacle_avoidance) JobEnded: {'identifier': 'obstacle_avoidance', 'rc': 0}
+[4.697734] (-) EventReactorShutdown: {}

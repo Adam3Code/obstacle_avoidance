@@ -1,0 +1,4 @@
+[console_scripts]
+obstacle_avoidance_1D = obstacle_avoidance.obstacle_avoidance_1D:main
+obstacle_movement = obstacle_avoidance.obstacle_movement:main
+remote_id_publisher = obstacle_avoidance.remote_id_publisher:main

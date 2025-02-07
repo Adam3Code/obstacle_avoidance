@@ -1,0 +1,5 @@
+  File "/home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance/obstacle_movement.py", line 68
+    self.get_logger().info(f"DRONES ARE ERE}")
+                                           ^
+SyntaxError: f-string: single '}' is not allowed
+

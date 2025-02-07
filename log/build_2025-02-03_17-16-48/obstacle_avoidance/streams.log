@@ -1,0 +1,27 @@
+[1.271s] Invoking command in '/home/adamrustom/ros2_ws/src/obstacle_avoidance': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/obstacle_avoidance build --build-base /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build install --record /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/install.log --single-version-externally-managed install_data
+[1.509s] running egg_info
+[1.525s] writing build/obstacle_avoidance/obstacle_avoidance.egg-info/PKG-INFO
+[1.526s] writing dependency_links to build/obstacle_avoidance/obstacle_avoidance.egg-info/dependency_links.txt
+[1.527s] writing entry points to build/obstacle_avoidance/obstacle_avoidance.egg-info/entry_points.txt
+[1.527s] writing requirements to build/obstacle_avoidance/obstacle_avoidance.egg-info/requires.txt
+[1.528s] writing top-level names to build/obstacle_avoidance/obstacle_avoidance.egg-info/top_level.txt
+[1.561s] reading manifest file 'build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[1.563s] adding license file 'LICENSE'
+[1.563s] writing manifest file 'build/obstacle_avoidance/obstacle_avoidance.egg-info/SOURCES.txt'
+[1.564s] running build
+[1.564s] running build_py
+[1.564s] copying obstacle_avoidance/obstacle_movement.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance
+[1.565s] running install
+[1.570s] running install_lib
+[1.588s] copying /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build/lib/obstacle_avoidance/obstacle_movement.py -> /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance
+[1.589s] byte-compiling /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance/obstacle_movement.py to obstacle_movement.cpython-312.pyc
+[1.592s] running install_data
+[1.592s] running install_egg_info
+[1.610s] removing '/home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance-0.0.1-py3.12.egg-info' (and everything under it)
+[1.611s] Copying build/obstacle_avoidance/obstacle_avoidance.egg-info to /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages/obstacle_avoidance-0.0.1-py3.12.egg-info
+[1.614s] running install_scripts
+[1.723s] Installing obstacle_avoidance_1D script to /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/obstacle_avoidance
+[1.724s] Installing obstacle_movement script to /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/obstacle_avoidance
+[1.724s] Installing remote_id_publisher script to /home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/obstacle_avoidance
+[1.725s] writing list of installed files to '/home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/install.log'
+[1.774s] Invoked command in '/home/adamrustom/ros2_ws/src/obstacle_avoidance' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adamrustom/ros2_ws/src/obstacle_avoidance/install/obstacle_avoidance/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/obstacle_avoidance build --build-base /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/build install --record /home/adamrustom/ros2_ws/src/obstacle_avoidance/build/obstacle_avoidance/install.log --single-version-externally-managed install_data

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: obstacle-avoidance
+Version: 0.0.1
+Summary: A package for Remote ID and Obstacle Avoidance Nodes
+Maintainer: adamrustom
+Maintainer-email: adamrustom@todo.todo
+License: Apache License 2.0
+License-File: LICENSE
