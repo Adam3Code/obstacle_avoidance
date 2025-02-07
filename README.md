@@ -1,0 +1,1 @@
+---- Til Emil og Gustav. Drone.py, Obstacle_avoidance_1D.py og Obstacle_movement.py
