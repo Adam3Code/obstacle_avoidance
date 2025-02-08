@@ -3,7 +3,7 @@
 <package format="3">
   <name>obstacle_avoidance</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Obstacle avoidance using Remote ID of other drones</description>
   <maintainer email="adamrustom@todo.todo">adamrustom</maintainer>
   <license>Apache-2.0</license>
 
