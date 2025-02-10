@@ -75,6 +75,7 @@ class Node:
         return self.cost
     
     
+    
 class Grid: #1D
     def __init__(self,start=40,end=200,node_range=10):
         self.start = start 
