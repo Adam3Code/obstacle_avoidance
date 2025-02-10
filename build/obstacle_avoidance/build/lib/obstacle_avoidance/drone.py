@@ -1,5 +1,5 @@
 import time 
-
+import math
 #SUPER CLASS
 class DroneObstacle: 
     def __init__(self):
@@ -7,15 +7,29 @@ class DroneObstacle:
         self.altitude = None
         self.latitude = None
         self.longtitude = None
-        self.velocity = None
+        self.x_vel = None
+        self.y_vel = None
+        self.z_vel = None
+        self.node = None
+    # getters
+    def get_id(self):
+        return self.drone_id
+    def get_node(self):
+        return self.node
+    def get_altitude(self):
+        return self.altitude
+    
+    #setters
+    def set_id(self,drone_id: str):
+        self.drone_id = drone_id
+    
 
 # Drone
 class Drone(DroneObstacle):
     def __init__(self):
         super().__init__()
-        self.node = None
         self.grid = None
-      
+    #setters
     def set_altitude(self,altitude: int):
         self.altitude = altitude
         self.node = self.grid.get_node(self.altitude) # DEBUG HERE:
@@ -25,21 +39,20 @@ class Drone(DroneObstacle):
     def set_grid(self,grid):
         self.grid = grid
         return self
-    def get_altitude(self):
-        return self.altitude
-        
-        
-    def move_to_altitude(self,altitude: int): #move_to specific altitude
-        while self.altitude!=altitude: # problem might not be able to reach specific position. // PID // Remove condition(might never be met)
-            print(self.altitude)
-            distance = altitude-self.altitude
-            self.velocity = 0.5*distance/(abs(distance))
-            time.sleep(1)
-            self.altitude = self.velocity +self.altitude
-        return self
+    
+
+    #movement
+    def move_to_altitude(self,target_altitude: int, min_speed = 0.1, damping = 0.2): #move_to specific altitude
+        distance = target_altitude-self.altitude
+        step_size = damping * distance  
+        self.velocity = step_size
+        time.sleep(1)
+        self.altitude += self.velocity
+
     def move_to_node(self,node): #fsdf
         self.move_to_altitude(node.get_altitude())
-        
+    
+    #############DELETE MAYBE############# 
     def autonomous_steering(self):
         if self.node.obstacle_on_me!=False:
             new_node = self.grid.get_lowest_cost_node(self.node)
@@ -57,13 +70,8 @@ class EnemyDrone(DroneObstacle):
         self.remote_id_data = remote_id_data
         self.drone_id = remote_id_data['drone_id']
         return self
-    def to_dict(self):
-        return {
-            "drone_id": self.drone_id,
-            "remote_id_data": self.remote_id_data
-        }
     def update_data(self, remote_id_data):
         self.remote_id_data = remote_id_data
+        
 
 
-    
